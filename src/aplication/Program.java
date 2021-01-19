@@ -5,6 +5,8 @@ import java.awt.event.*;
 
 public class Program extends JFrame{
 	
+
+		private static final long serialVersionUID = 1L;
 		private JTextField lblPeso,lblTempo,lblQuantidade,lblResultado,lblTotal,lblValor;
 		private JLabel lblPesotitle,lblTempotitle,lblQuantidadetitle;
 		private	JButton  btnCalcular;
@@ -123,8 +125,6 @@ public class Program extends JFrame{
 		
 		public double calcularValor(String custo){
 			
-			double custoAnuncio=0,totalPreco=0;
-			
-			return custoAnuncio = (Double.parseDouble(custo)*16/100)+5;	
+			return (Double.parseDouble(custo)*16/100)+5;	
 		}
 }
